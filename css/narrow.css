@@ -17,7 +17,7 @@ ul {
   overflow: hidden;
   background-color: #888;
   box-shadow: 2px 2px 1px #666;
-  height:14%;
+  height:18%;
 }
 
 h3 {
@@ -66,7 +66,8 @@ div {
 
 #content-holder {
   padding-bottom: 2.5%;
-  margin-top: 15%;
+  padding-top: 5%;
+  margin-top: 5%;
 }
 
 .content {
@@ -93,11 +94,12 @@ div {
 
 #selfie {
   display: block;
-  height: 60%;
-  width: auto;
-  margin: 0;
-  margin-left: 8%;
-  border-radius: 5%;
+  height: auto;
+
+  width: 80%;
+  margin-right: -12%;
+  margin-left: 12%;
+  border-radius: 15%;
 }
 
 h1 {
@@ -122,4 +124,12 @@ p {
 
 .link {
   float: none;
+}
+
+.fotter {
+    background-color: #AAA;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    height:25%;
+    padding-top:3%;
 }

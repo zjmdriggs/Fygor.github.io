@@ -19,6 +19,9 @@ ul {
   background-color: #888;
   box-shadow: 2px 2px 1px #666;
   height: 10%;
+  border-radius: 0;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
 }
 
 h3 {
@@ -67,14 +70,15 @@ div {
 
 #content-holder {
   padding-bottom: 2.5%;
-
+  padding-top: 5%;
+  margin-top: 5%;
 }
 
 .content {
   padding-bottom: 40%;
   width: 94%;
   margin-left:3%;
-  margin-top: 4%;
+  margin-top: 5%;
   padding-top: 5%;
   box-shadow: 3px 3px 3px #999;
   background-color: rgba(255, 255, 255, 0.85);;
@@ -98,7 +102,8 @@ div {
   width: auto;
   margin: 0;
   margin-left: 8%;
-  border-radius: 5%;
+  border-radius: 15%;
+  padding-bottom: 5%;
 }
 
 h1 {
@@ -119,8 +124,17 @@ p {
 
 #about {
   border-top-color: white;
+  height: auto;
 }
 
 .link {
   float: none;
+}
+
+.fotter {
+    background-color: #AAA;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    height:25%;
+    padding-top:3%;
 }
