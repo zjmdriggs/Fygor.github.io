@@ -18,7 +18,7 @@ ul {
   overflow: hidden;
   background-color: #888;
   box-shadow: 2px 2px 1px #666;
-  height: 14%;
+  height: 10%;
 }
 
 h3 {
@@ -67,7 +67,7 @@ div {
 
 #content-holder {
   padding-bottom: 2.5%;
-  margin-top: 12%;
+
 }
 
 .content {
@@ -98,6 +98,7 @@ div {
   width: auto;
   margin: 0;
   margin-left: 8%;
+  border-radius: 5%;
 }
 
 h1 {

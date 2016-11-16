@@ -1,8 +1,10 @@
 var flag = true;
+
+
 $(document).ready(function(){
     var current;
 
-    $("body").css("background-image", "url('codeImages/BoardCanvas.jpg')")
+    //$("body").css("background-image", "url('codeImages/BoardCanvas.jpg')");
 
     if(flag){
         current = $("#about-link");

@@ -1,6 +1,6 @@
 # My Site #
 
-A website I am making for my honors class here at UC. Eveuntally it will be made
+A website I am making for my honors class here at UC. Eventually it will be made
  live and have an active link.
  
 ### Copyright ###
