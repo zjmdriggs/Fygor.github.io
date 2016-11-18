@@ -1,0 +1,92 @@
+body {
+    background-color: #300a24;
+    margin:0px;
+}
+
+#nav {
+    text-align: center;
+    display:inline-block;
+    width: 100%;
+    height:auto;
+    position:relative;
+    overflow: hidden;
+    background-color: #888;
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    box-shadow: 2px 2px 1px #666;
+}
+
+#home > h1 {
+    margin:0;
+    font-size: 30;
+}
+
+.link > a > h3 {
+    margin: 5px 0 5px 0;
+}
+
+#home {
+    color: black;
+    text-decoration: none;
+    font-family:'Helvetica';
+    margin: 10px 15px 5px 10px;
+    text-shadow: 2px 2px 1px #444;
+    display:inline-block;
+}
+
+.link {
+    display: inline-block;
+    margin: 0 15px 0 15px;
+}
+
+#links {
+    display: inline-block;
+    float: right;
+}
+
+nav > #links > .link > a {
+    color: darkslateblue;
+    font-family:'Geneva';
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+
+    nav > #links {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    nav > #links > .link {
+        float: none;
+        margin: 0 10px 0 10px;
+    }
+
+    #home {
+        text-align: center;
+        width:100%;
+        margin:10px 0 0 0;
+    }
+}
+
+#content-holder {
+    margin: 10%;
+    width: 80%;
+    height: audo;
+}
+
+#foot {
+    width:100%;
+    border-radius: 10% 10% 0 0;
+    background-color: #888;
+    position: fixed;
+    height: 10%;
+}
+
+.content {
+    border-radius: 10%;
+    background-color: #AAA;
+    box-shadow: 2px 2px 1px #666;
+    text-decoration: none;
+}

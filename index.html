@@ -1,68 +1,39 @@
 <head>
     <title>Nicholas Maltbie</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!---<link rel="stylesheet" href="stylesheet.css">-->
-
-    <link rel='stylesheet' media='screen and (max-width: 700px)' href='css/narrow.css' />
-    <link rel='stylesheet' media='screen and (min-width: 701px)' href='css/medium.css' />
-    <!--<link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/medium.css' />
-    <link rel='stylesheet' media='screen and (min-width: 901px)' href='css/wide.css' />-->
-
-    <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-    <script type="text/javascript" src="app.js"></script>
+    <link rel='stylesheet' href='css/stylesheet.css' />
 </head>
-<body background="codeImages/BoardCanvas.jpg">
-
-    <!--
-    <body>
-    <img class="background-image" src="codeImages/BoardCanvas.jpg"/>
-    <img class="background-image" src="codeImages/Client.jpg" />
-    <img class="background-image" src="codeImages/Improviser.jpg" />
-    -->
-    <ul class="navbar">
-        <li class="col-md-offset-1 col-md-3 text-center">
-            <a href="" class="active" class="nav" id="home">
-                <h3>Nicholas Maltbie</h3>
+<body>
+    <nav id="nav">
+        <div id="home">
+            <a href="index.html" id="home">
+                <h1>Nicholas Maltbie</h1>
             </a>
-        </li>
+        </div>
 
-        <li class="col-md-offset-4 col-md-1 col-xs-4">
-            <a class="nav" id="about-link" class="active" href="#about">
-                About
-            </a>
-        </li>
-        <li class="col-md-1 col-xs-4"><a class="nav" id="links-link" href="#links">Links</a></li>
-        <li class="col-md-1 col-xs-4"><a class="nav" id="projects-link" href="#projects">Projects</a></li>
-    </ul>
-
-    <div class="container">
-        <div id="content-holder" class="row">
-            <div id="about" class="content">
-                <img class="col-md-6 col-md-offset-3 col-xs-offset-2 col-xs-8" id="selfie" src="IMG_1776.JPG"/>
-                    <h1 class="title text-center col-md-6">Nicholas Maltbie</h1>
-                    <p class="col-md-6 text-center" id="bio">
-                        This is some text about me ;)
-                    </p>
-                    <p class=" text-center col-md-6"> Click <a href="https://drive.google.com/open?id=0B0gCZqueOMVIaFNQQXA4c0lDUjQ">here</a> for my resume</p>
+        <div id="links">
+            <div class="link">
+                <a href="test.html">
+                     <h3>Test Page</h3>
+                </a>
             </div>
-            <div id="links" class="content">
-                <h1 class="title text-center">Links</h1>
-                <ul class="row">
-                    <li class="link col-md-3"> <a href="https://github.com/nicholas-maltbie/"> Github </a> </li>
-                </ul>
-
-                Visit the <a href="test.html"> test page </a>
-            </div>
-            <div id="projects" class="content">
-                <h1 class="title text-center">Projects</h1>
+            <div class="link">
+                <a href="test.html">
+                     <h3>Test Page</h3>
+                </a>
             </div>
         </div>
+    </nav>
+
+    <div id="content-holder">
+        <div class ="content">
+            <p> This is a test string :) </p>
+        </div>
+        <div class ="content">
+            <p> This is a test string :) </p>
+        </div>
     </div>
-    <footer class="fotter">
-        <div class="col-md-10 col-md-offset-1"><h3>Nicholas Maltbie<h3></div>
-        <div class="col-md-10 col-md-offset-1"><p><h5>email: <a href="nick.dmalt@gmail.com"> nick.dmalt@gmail.com</a>.</h5></p></div>
-    </footer>
+
+    <footer id="foot">
+        this is some test fotter text
+    </fotter>
 </body>
