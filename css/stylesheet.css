@@ -114,22 +114,25 @@ body {
   margin-left: 5%;
 }
 
-ul#info {
-  width: inherit;
-  text-align: justify;
+ul.info {
+  width: 40%;
+  float:right;
+  text-align: right;
+  vertical-align: baseline;
 }
-
-ul#info:after {
+/*
+ul.info:after {
   content: '';
   display: inline-block;
   width: 100%;
-}
+}*/
 
-ul#info li {
+ul.info li {
   display: inline-block;
   width: auto;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
+  margin:0 15px 0 0;
 }
 
 #picture-holder {
@@ -204,3 +207,4 @@ ul#info li {
     margin-left: 0;
   }
 }
+\
