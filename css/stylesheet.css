@@ -1,7 +1,13 @@
 body {
     background-color: #300a24;
-    margin:0px;
-    padding-top: 5%;
+    margin:0;
+    padding:0;
+	height:100%;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
 }
 
 #nav {
@@ -75,9 +81,8 @@ body {
 }
 
 #content-holder {
-    margin: 5%;
+    margin: 5% 5% 0 5%;
     width: 90%;
-    height: audo;
 }
 
 #footer {
@@ -87,7 +92,7 @@ body {
     width:90%;
     padding: 3% 5% 2% 5%;
     font-family: 'Arial';
-	position:relative;
+	position:absolute;
 	bottom:0;
     left:0;
 }
@@ -100,8 +105,9 @@ body {
     display: block;
     background-color: #AAA;
     box-shadow: 2px 2px 1px #666;
-    margin: 5%;
+    margin: 0 3%;
     padding: 2%;
+    float:top;
 }
 
 .content {
