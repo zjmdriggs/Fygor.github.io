@@ -114,7 +114,7 @@ body {
   margin-left: 5%;
 }
 
-ul.info {
+.info {
   width: 40%;
   float:right;
   text-align: right;
@@ -127,7 +127,7 @@ ul.info:after {
   width: 100%;
 }*/
 
-ul.info li {
+.info > li {
   display: inline-block;
   width: auto;
   text-align: left;
