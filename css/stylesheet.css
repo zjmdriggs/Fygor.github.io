@@ -59,27 +59,6 @@ body {
   text-decoration: none;
 }
 
-@media (max-width: 700px) {
-
-  #nav > #links {
-    display: block;
-    text-align: center;
-    margin-bottom: 5px;
-    width:100%;
-  }
-
-  #nav > #links > .link {
-    float: none;
-    margin: 0 10px 0 10px;
-  }
-
-  #home {
-    text-align: center;
-    width:100%;
-    margin:10px 0 0 0;
-  }
-}
-
 #content-holder {
   margin: 5% 5% 0 5%;
   width: 90%;
@@ -123,6 +102,18 @@ body {
   border-radius: 15px;
 }
 
+#picture {
+  display:inline-flex;
+  margin:0 5%;
+}
+
+#about {
+  display: inline-block;
+  width:45%;
+  vertical-align:top;
+  margin-left: 5%;
+}
+
 ul#info {
   width: inherit;
   text-align: justify;
@@ -139,4 +130,77 @@ ul#info li {
   width: auto;
   text-align: center;
   vertical-align: middle;
+}
+
+#picture-holder {
+  text-align: left;
+}
+
+@media (max-device-width: 700px) {
+
+  #nav > #links {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    width:100%;
+  }
+
+  #nav > #links > .link {
+    float: none;
+    margin: 0 10px 0 10px;
+  }
+
+  #home {
+    text-align: center;
+    width:100%;
+    margin:10px 0 0 0;
+  }
+
+  #picture-holder {
+    text-align: center;
+  }
+
+  #picture {
+    margin: 0 0;
+  }
+
+  #about {
+    width:100%;
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  #nav > #links {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    width:100%;
+  }
+
+  #nav > #links > .link {
+    float: none;
+    margin: 0 10px 0 10px;
+  }
+
+  #home {
+    text-align: center;
+    width:100%;
+    margin:10px 0 0 0;
+  }
+
+  #picture-holder {
+    text-align: center;
+  }
+
+  #picture {
+    margin: 0 0;
+  }
+
+  #about {
+    width:100%;
+    margin-left: 0;
+  }
 }

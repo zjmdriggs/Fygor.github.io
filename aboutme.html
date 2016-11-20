@@ -1,29 +1,48 @@
 <head>
   <title>About Me - Nicholas Maltbie</title>
   <link rel='stylesheet' href='css/stylesheet.css' /></link>
-  <script src="padding.js"></script>
+  <script src="js/padding.js"></script>
 </head>
-<body background="codeImages/ImproviserBlur.jpg" onload="alightPaddingForNav()" onresize="alightPaddingForNav()">
-  <navbar id="nav">
-    <div id="home">
-      <a href="index.html" id="home">
-        <h1>Nicholas Maltbie</h1>
-      </a>
+<body background='codeImages/BuildingBlur.jpg' onload="alightPaddingForNav()"
+onresize="alightPaddingForNav()">
+  <div id="wrapper">
+    <navbar id="nav">
+       <div id="home">
+         <a href="index.html" id="home">
+           <h1>Nicholas Maltbie</h1>
+         </a>
+       </div>
+
+       <div id="links">
+         <div class="link">
+           <a href="test.html">
+            <h3>Test Page</h3>
+           </a>
+         </div>
+       </div>
+    </navbar>
+
+    <div id='content-holder'>
+      <div class = "content" id="picture-holder">
+        <img id="picture" class="roundrect" border="1px" src='IMG_1776.JPG' height="50%"/>
+        <div id="about">
+          <p></p>
+            <h1 align="center">Nicholas Maltbie</h1>
+            <p> I am a computer science student at the Univeristy of
+              Cincinnati with an exptected graduation in Spring 2021.</p>
+            <p> To view my resume, click <a href="https://drive.google.com/drive/folders/0B0gCZqueOMVIM21OenJTWFZUQzg">here</a>. </p>
+          <p></p>
+        </div>
+      </div>
     </div>
 
 
-    <div id="links">
-      <div class="link">
-        <a href="aboutme.html">
-           <h3>About Me</h3>
-        </a>
+    <div id="footer">
+      <div>
+        Want to see the <a href="https://github.com/nicholas-maltbie/nicholas-maltbie.github.io/blob/master/license.html"> source code </a> of this page on github?
       </div>
-      <div class="link">
-        <a href="test.html">
-           <h3>Test Page</h3>
-        </a>
-      </div>
-    </div>
-  </navbar>
 
+      <font size="1"><a href="license.html">Copyright</a> © 2016 Nicholas Maltbie</font>
+    </div>
+  </div>
 </body>
