@@ -2,24 +2,38 @@
   <title>About Me - Nicholas Maltbie</title>
   <link rel='stylesheet' href='css/stylesheet.css' /></link>
   <script src="js/padding.js"></script>
+  <script src="js/dropdown.js"></script>
+  <link rel="icon" href="img/icons/turtleIcon.png">
 </head>
-<body background='img/code/BuildingBlur.jpg' onload="alightPaddingForNav()"
+<body background="img/code/ClientBlur.jpg" onload="alightPaddingForNav()"
 onresize="alightPaddingForNav()">
   <div id="wrapper">
     <navbar id="nav">
-       <div id="home">
-         <a href="index.html" id="home">
-           <h1>Nicholas Maltbie</h1>
-         </a>
-       </div>
+      <div id="home">
+        <a href="index.html" id="home">
+          <h1>Nicholas Maltbie</h1>
+        </a>
+      </div>
 
-       <div id="links">
-         <div class="link">
-           <a href="projects.html">
-            <h3>Projects</h3>
-           </a>
-         </div>
-       </div>
+      <div id="links">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn"><h3>First Year</h3></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="gateway.html">Honors Gateway</a>
+            <a href="yearin1.html">Year-In Review</a>
+          </div>
+        </div>
+        <div class="link">
+          <a href="aboutme.html">
+             <h3>About Me</h3>
+          </a>
+        </div>
+        <div class="link">
+          <a href="projects.html">
+             <h3>Projects</h3>
+          </a>
+        </div>
+      </div>
     </navbar>
 
     <div id="content-holder">
@@ -33,6 +47,69 @@ onresize="alightPaddingForNav()">
             <p> To view my resume, click <a href="https://drive.google.com/file/d/0B0gCZqueOMVIaFNQQXA4c0lDUjQ/view?usp=sharing">here</a>. </p>
           <p></p>
         </div>
+      </div>
+
+      <div class = "content" id="interests">
+        <p><h1 align="center">Interests</h1></p>
+        <p>
+          My interests include piano, video editing, programming and education.
+          Below is a youtube video I made of myself playing piano from June 2016.
+          Many of the project I work on reflect my interests and I have made
+          an entire page on this website dedicated to this, the <a href="projects.html">projects page</a>.
+          The following video shows my interests and exemplifies what I have
+          been able to do over the past few years.
+        </p>
+        <div style="text-align:center">
+          <iframe style="border-radius:10%" src="https://www.youtube.com/embed/4yULBzQo64s"
+            width="80%" height="50%">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="content" id="Personality">
+        <p><h1 align= 'center'>Personality</h1></p>
+        <div style='text-align:center'>
+          <span title="My Myers Briggs Personality type"><a href='https://www.16personalities.com/intp-personality'>
+          <img src='http://personalitygrowth.com/wp-content/uploads/2015/05/10408633_1557509734524677_8839742263739963463_n.jpg?2aa4f6' width='75%'/>
+          </a></span>
+        </div>
+        <p align='center'>
+          Click <a href='https://www.16personalities.com/intp-personality'>here</a>
+          or on the kitten for more info about my personailty type.
+        </p>
+      </div>
+
+      <div class="content" id="Introduction">
+        <p><h1 align='center'>Introduction</h1></p>
+        <p>
+          While volunteering at Hughes High School, when I walked into class one
+          day, the instructor I assist and a student I was working with both
+          looked up in disbelief; I did not know this at the time, but the
+          student had just asked the teacher, “how does Nick go about solving
+          these problems”, then I appeared in the room. I am dedicated to my
+          work and have participated in many projects over the last few years.
+          These activities have ranged from independent work, to research
+          projects, to volunteering at local high schools. I aspire to better
+          myself and those around me through the use of technology and education.
+           My strengths allow me to focus and work independently. However, I
+           realize the benefits of group work and have been trying to adapt and
+           improve my ability to work in a group. To accomplish this, I have
+           been attempting to document and collaborate more while working.
+         </p>
+         <p>
+           My strengths also allow me to better reflect on work I have done. Now
+            that I have started using Github to document and track my projects,
+            I can much more easily review previous projects and see the benefits
+            of my work. My passion to help others and learn about computer
+            science have become more and more integrated in the past years. I
+            will in future try to explore this opportunity and look forward to
+            helping the students at Hughes High School. Many of my other
+            projects have also been geared toward helping other people and
+            improving education. It is not my goal in life to be an educator,
+            but I have a passion for learning and teaching just as I have a
+            passion for computer science and cryptography and hope to use
+            college as an opportunity to explore these interests.
+        </p>
       </div>
     </div>
 

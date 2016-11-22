@@ -2,6 +2,8 @@
   <title>Projects - Nicholas Maltbie</title>
   <link rel='stylesheet' href='css/stylesheet.css' /></link>
   <script src="js/padding.js"></script>
+  <script src="js/dropdown.js"></script>
+  <link rel="icon" href="img/icons/turtleIcon.png">
 </head>
 <body background="img/code/ClientBlur.jpg" onload="alightPaddingForNav()"
 onresize="alightPaddingForNav()">
@@ -14,9 +16,21 @@ onresize="alightPaddingForNav()">
       </div>
 
       <div id="links">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn"><h3>First Year</h3></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="gateway.html">Honors Gateway</a>
+            <a href="yearin1.html">Year-In Review</a>
+          </div>
+        </div>
         <div class="link">
           <a href="aboutme.html">
              <h3>About Me</h3>
+          </a>
+        </div>
+        <div class="link">
+          <a href="projects.html">
+             <h3>Projects</h3>
           </a>
         </div>
       </div>
