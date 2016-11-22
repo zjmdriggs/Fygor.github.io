@@ -24,6 +24,18 @@ body {
   padding: 10px;
 }
 
+.content {
+  font-family:'Helvetica';
+}
+
+.content > p {
+  font-size:25;
+}
+
+.content > div > p {
+  font-size:25;
+}
+
 #home > h1 {
   margin:0;
   font-size: 30;
@@ -52,6 +64,7 @@ body {
 #links {
   display: inline-block;
   float: right;
+  font-family:'Helvetica';
 }
 
 #nav > #links > .link > a {
@@ -106,7 +119,8 @@ body {
 
 #picture {
   display:inline-flex;
-  margin:0 5%;
+  margin: auto 5%;
+  vertical-align: middle;
 }
 
 #about {
@@ -118,7 +132,7 @@ body {
 
 #about > h1 {
   font-family:'Sans-serif';
-  text-shadow: 2px 2px 1px #666;
+  /*text-shadow: 2px 2px 1px #666;*/
 }
 
 #info {
@@ -174,7 +188,7 @@ ul.info:after {
   }
 
   #picture {
-    margin: 0 0;
+    margin: auto 0;
   }
 
   #about {
