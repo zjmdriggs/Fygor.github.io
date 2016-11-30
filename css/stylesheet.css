@@ -1,0 +1,286 @@
+body {
+  background-color: #300a24;
+  margin:0;
+  padding:0;
+	height:100%;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+#nav {
+  text-align: center;
+  display:inline-block;
+  width: 100%;
+  height:auto;
+  top:0;
+  position:fixed;
+  background-color: #888;
+  border-bottom-left-radius: 12%;
+  border-bottom-right-radius: 12%;
+  box-shadow: 2px 2px 1px #666;
+  padding: 10px;
+}
+
+.content {
+  font-family:'Helvetica';
+}
+
+.content > p {
+  font-size:25;
+}
+
+.content > div > p {
+  font-size:25;
+}
+
+#home > h1 {
+  margin:0;
+  font-size: 30;
+}
+
+.link > a > h3 {
+  margin: 5px 0 5px 0;
+}
+
+#home {
+  color: black;
+  text-decoration: none;
+  font-family:'Helvetica';
+  margin: 10px 15px 5px 10px;
+  text-shadow: 2px 2px 1px #444;
+  display:inline-block;
+  text-align: left;
+  float:left;
+}
+
+.link {
+  display: inline-block;
+  margin: 0 15px 0 15px;
+}
+
+#links {
+  display: inline-block;
+  float: right;
+  font-family:'Helvetica';
+}
+
+#nav > #links > .link > a {
+  color: darkslateblue;
+  font-family:'Geneva';
+  text-decoration: none;
+}
+
+#content-holder {
+  margin: 5% 5% 0 5%;
+  width: 90%;
+}
+
+#footer {
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  background-color: #888;
+  width:90%;
+  padding: 3% 5% 2% 5%;
+  font-family: 'Arial';
+	position:absolute;
+	bottom:0;
+  left:0;
+}
+
+#foter > div {
+  color: #FFF;
+}
+
+#license {
+  display: block;
+  background-color: #AAA;
+  box-shadow: 2px 2px 1px #666;
+  margin: 0 3%;
+  padding: 2%;
+  float:top;
+}
+
+.content {
+  border-radius: 5%;
+  background-color: rgba(200, 200, 200, 0.85);;
+  box-shadow: 2px 2px 1px #666;
+  text-decoration: none;
+  margin-bottom: 5%;
+  padding:2%;
+  font-size: 20;
+}
+
+.roundrect {
+  border-radius: 15px;
+}
+
+#picture {
+  display:inline-flex;
+  margin: auto 5%;
+  vertical-align: middle;
+}
+
+#about {
+  display: inline-block;
+  width:45%;
+  vertical-align:top;
+  margin-left: 5%;
+}
+
+#about > h1 {
+  font-family:'Sans-serif';
+  /*text-shadow: 2px 2px 1px #666;*/
+}
+
+#info {
+  float:right;
+  text-align: right;
+  vertical-align: baseline;
+}
+/*
+ul.info:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}*/
+
+#info > li {
+  display: inline-block;
+  width: auto;
+  text-align: left;
+  vertical-align: middle;
+  margin:0 10px 0 10px;
+  background-color: rgba(200,200,200,0.85);
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+#picture-holder {
+  text-align: left;
+}
+
+@media (max-device-width: 700px) {
+
+  #nav > #links {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    width:100%;
+  }
+
+  #nav > #links > .link {
+    float: none;
+    margin: 0 10px 0 10px;
+  }
+
+  #home {
+    text-align: center;
+    width:100%;
+    margin:10px 0 0 0;
+  }
+
+  #picture-holder {
+    text-align: center;
+  }
+
+  #picture {
+    margin: auto 0;
+  }
+
+  #about {
+    width:100%;
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  #nav > #links {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    width:100%;
+  }
+
+  #nav > #links > .link {
+    float: none;
+    margin: 0 10px 0 10px;
+  }
+
+  #home {
+    text-align: center;
+    width:100%;
+    margin:10px 0 0 0;
+  }
+
+  #picture-holder {
+    text-align: center;
+  }
+
+  #picture {
+    margin: 0 0;
+  }
+
+  #about {
+    width:100%;
+    margin-left: 0;
+  }
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #CCC;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn {
+    background-color: #CCC;
+    color: darkslateblue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:focus {
+  background-color: #777;
+  outline:0;
+}
+
+.dropbtn:hover  {
+    background-color: #777;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #CCC;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: darkslateblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #CCC}
+
+.show {display:block;}
