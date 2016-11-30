@@ -1,1 +1,0 @@
-pygmentize -O style=paraiso-dark,line_numbers=False -o BoardCanvas.jpg ~/Documents/Projects/Medina/BoardCanvas.py
