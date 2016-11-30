@@ -1,0 +1,230 @@
+[33mcommit 106aeb218c5acffe6c13ffb1ce1794d7fb17ae61[m
+Author: Zachary Driggs <zjmdriggs@gmail.com>
+Date:   Tue Nov 29 21:51:14 2016 -0500
+
+    Actually removed herobrine
+
+[33mcommit 0b101c1d67479e27f170c89708dd0ce4ed16bdfe[m
+Author: Zachary Driggs <zjmdriggs@gmail.com>
+Date:   Tue Nov 29 21:50:23 2016 -0500
+
+    still resolving things
+
+[33mcommit 8b3774802277b56e0d64d1d697c4ff2088d35e7e[m
+Merge: 7c2dfc0 4a427e4
+Author: Zachary Driggs <zjmdriggs@gmail.com>
+Date:   Tue Nov 29 21:49:17 2016 -0500
+
+    things being resolved
+
+[33mcommit 7c2dfc02b6bad9c7a7abc38f41e273e8eb945557[m
+Author: Zachary Driggs <zjmdriggs@gmail.com>
+Date:   Tue Nov 29 21:46:45 2016 -0500
+
+    Removed Herobrine
+    
+    bleh
+
+[33mcommit ea77c62b995e037567038b9dc9bcccd759e2a95d[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Wed Nov 23 12:57:50 2016 -0500
+
+    Updated YearInReview
+
+[33mcommit 2aedb82f97a988bf27fe2952f3e1efd396cee4ea[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Mon Nov 21 22:58:29 2016 -0500
+
+    Created Honors Gateway page and changed icons
+
+[33mcommit fbd7a100d6212088f6b63e7f9107a94b5d4fa6a6[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Mon Nov 21 21:42:10 2016 -0500
+
+    Added icon, more pages, and drop down menu
+
+[33mcommit 88814533c1f85a8ad78919b04ddd608cb45a0465[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Mon Nov 21 11:17:51 2016 -0500
+
+    Modified sizes of images on project page
+
+[33mcommit 4a427e4ceed06e1361013d347c0191ff7cdc630c[m
+Author: Fygor <brimaltbie@gmail.com>
+Date:   Sun Nov 20 19:52:09 2016 -0800
+
+    JPG
+
+[33mcommit b117281f598c72a0ede533247953dccc9c885cb0[m
+Author: Fygor <brimaltbie@gmail.com>
+Date:   Sun Nov 20 19:49:52 2016 -0800
+
+    Added Gateway
+
+[33mcommit 9773efe5cc1a2090f8b83f0ce777a0c5f9980b4e[m
+Author: Fygor <brimaltbie@gmail.com>
+Date:   Sun Nov 20 19:47:52 2016 -0800
+
+    Final Revisions
+
+[33mcommit a344f758f5469719edd2e6babd0a527508e7e633[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sun Nov 20 22:19:09 2016 -0500
+
+    Completed initial version of project page
+
+[33mcommit 7b545a4f59d6e22fd94f5399918a7f9e360994ff[m
+Author: Fygor <brimaltbie@gmail.com>
+Date:   Sun Nov 20 18:16:05 2016 -0800
+
+    changed brian image
+
+[33mcommit 5e85eae9928794a0a4fee03d32308a9d31fe2c27[m
+Author: Fygor <brimaltbie@gmail.com>
+Date:   Sun Nov 20 18:12:40 2016 -0800
+
+    Revised website code to become Brian Maltbie
+
+[33mcommit a7f0d949ca028090c419d4809e61adbc153630d7[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sun Nov 20 12:43:39 2016 -0500
+
+    Fixed link on projects page
+
+[33mcommit 1e1525f714a413b2c446daba30876db8cf3b47f0[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sun Nov 20 12:42:55 2016 -0500
+
+    Moved image files, added images, create projects page
+
+[33mcommit 8a73357dcf684b10651f96928291df32aaae3116[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sun Nov 20 11:49:46 2016 -0500
+
+    Cleaned up page and fixed links
+
+[33mcommit 64424ed000a5f3cbe576164e793dab63ecfdf44b[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sun Nov 20 02:36:22 2016 -0500
+
+    fixing formatting errors
+
+[33mcommit 545d606d540c08911f2298e5a1176a8d0578ed3d[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sun Nov 20 02:35:28 2016 -0500
+
+    attempt to fix links
+
+[33mcommit 4e4d0dace1b40b70d7eadde2af706f0c8e853cf1[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sun Nov 20 02:33:16 2016 -0500
+
+    Coped fixed footer to other pages
+
+[33mcommit d4383d4cb2c9db062486dd40a48c76ed274b3e45[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sun Nov 20 02:31:40 2016 -0500
+
+    Another attempt to fix footer display
+
+[33mcommit fc215fb22a942d3b4cbefba18b541c29940333c1[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sun Nov 20 02:29:37 2016 -0500
+
+    Attempt to fix footer display
+
+[33mcommit d769d1f0925c93186c93e23277bada0e4f490c4c[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sun Nov 20 02:27:34 2016 -0500
+
+    Redesigned fotter, improved pages, reorganized images and files, added icons
+
+[33mcommit fd5d6b55fd5bc0abfba00e2684b6e3d5cdf1b617[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sun Nov 20 01:39:26 2016 -0500
+
+    Started about me page and fixed up about section of home page
+
+[33mcommit 9dc9fe22ccb72e78ed6e63e7c39f84b6cd12183d[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sun Nov 20 00:40:04 2016 -0500
+
+    Placed name next to image on index.html
+
+[33mcommit 62cadc1eb94acdd06cc7d5d17ec07d18e2d2e1dd[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Sat Nov 19 23:41:21 2016 -0500
+
+    Fixed footer position for the computer screen
+
+[33mcommit 740bdee6163e7794661e983d208ae9f65dae0306[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Fri Nov 18 17:15:31 2016 -0500
+
+    Added License page
+
+[33mcommit df6721f0091370b4c8121595b4736a2ac90e4e5d[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Fri Nov 18 16:05:52 2016 -0500
+
+    Added images for background
+
+[33mcommit 25681fe7fb82d5c2c46f9df7848b0851a4b171fa[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Fri Nov 18 16:05:23 2016 -0500
+
+    Added background Image to index.html
+
+[33mcommit 87b7b5fe4f23b22e9c0fd90972b00a2638f9fbc1[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Fri Nov 18 15:27:51 2016 -0500
+
+    Fixed navbar placement for different screen resolutions
+
+[33mcommit 6bc979fee6ece851ca08ba2d0ae0de3b99213d3c[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Fri Nov 18 14:48:42 2016 -0500
+
+    Actually fixed footer
+
+[33mcommit 33ef20522d38806f7a5a3e2d8032bb9c6df19cbe[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Fri Nov 18 14:39:58 2016 -0500
+
+    Fixed footer and content box spacing
+
+[33mcommit 807a878f3efa01ac00e5d36f2d161b44004c76c7[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Fri Nov 18 14:21:31 2016 -0500
+
+    Rewrote webpage from scratch to better understand html
+
+[33mcommit 2cced6f870145d187f7dd8b96340047c399ff8f9[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Wed Nov 16 16:38:18 2016 -0500
+
+    added web address to readme.md
+
+[33mcommit 4fcd74a9715749eed41fd98b6c1b83dbf5898c48[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Wed Nov 16 16:36:38 2016 -0500
+
+    More work on css and main page
+
+[33mcommit 6fbc843ebf39476267654d701c4b5b3f287ae0db[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Tue Nov 15 21:00:09 2016 -0500
+
+    added test page
+
+[33mcommit 0a8900effffe649805e0ac4409a076cfa3eccaa4[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Tue Nov 15 20:59:54 2016 -0500
+
+    Added new style sheets, added test page
+
+[33mcommit 7abe772f2d8f188159b8e441cc99b5fe6af283c8[m
+Author: Nicholas Maltbie <nick.dmalt@gmail.com>
+Date:   Tue Nov 15 19:57:09 2016 -0500
+
+    initial commit
